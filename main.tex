@@ -4,29 +4,37 @@
 \usepackage[margin=.5cm]{geometry}
 \usepackage{multirow}
 \usepackage{enumitem}
+\usepackage{hyperref}
 
+\newcommand*\leftright[2]{%
+  \leavevmode
+  \rlap{#1}%
+  \hspace{0.5\linewidth}%
+  #2}
 
 \begin{document}
 
 \setlist{nosep}
 
-\begin{center}
-    David Abraham James \\
-    (661) 666-2009 Email: davidabraham@ucla.edu linkedIn: www.linkedin.com/in/james-davidabraham/ Github: github.com/DJ-2805
-\end{center}
-
+{\centering
+    \textbf{\large David A. James} \\
+    \leftright{(661) 666-2009}{\href{https://github.com/DJ-2805}{github.com/DJ-2805}}  \\
+    \leftright{\href{mailto:davidabraham@ucla.edu}{davidabraham@ucla.edu}}{\href{https://www.linkedin.com/in/dj-2805/}{linkedin.com/in/dj-2805/}}  \\
+}
 \begin{tabular}{l l l l} \hline
-    \multicolumn{1}{p{1.5cm}}{\textbf{Education}}    &                
-        \multicolumn{3}{p{17cm}}{University of California, Los Angeles \newline
-        Degrees: B.S. Mathematics of Computation, Geophysics and Planetary Physics \newline
-        Triangle Fraternity for Engineers, Architects, and Scientists; Hermanos Unidos \newline
-        College of the Canyons \newline
-        Degrees: Associates in Mathematics, Assosciates in Physics} \\ \hline
-    \multicolumn{1}{p{1.5cm}}{\textbf{Skills}}   &
-        \multicolumn{1}{p{8cm}}{Programming: C++, JAVA, Python, \LaTeX, Matlab \newline
-        Applied Maths: Mathematical Modeling, Numerical Analysis, Optimization \newline
-        Other: Tutoring, Project Management, Staff Management, Public Speaking, Soldering, Milling, Machining, Lab experience, Microsoft}  &
-            \multicolumn{1}{p{1.5cm}}{\textbf{Relevant Course Work}} &
+    \multicolumn{1}{p{1.7cm}}{\textbf{Education}}    &                
+        \multicolumn{3}{p{17cm}}{
+        \textbf{University of California: Los Angeles} \newline
+        \textit{Degrees:} B.S. Mathematics of Computation, Geophysics and Planetary Physics Minor \newline
+        Hermanos Unidos; Triangle Fraternity for Engineers, Architects, and Scientists \newline
+        \textbf{College of the Canyons} \newline
+        \textit{Degrees:} Associates in Mathematics, Assosciates in Physics} \\ \hline
+    \multicolumn{1}{p{1.7cm}}{\textbf{Skills}}   &
+        \multicolumn{1}{p{8cm}}{
+        \textit{Programming:} C++, Python, JAVA \LaTeX, Matlab \newline
+        \textit{Applied Maths:} Mathematical Modeling, Numerical Analysis, Optimization \newline
+        \textit{Other:} Tutoring, Project Management, Staff Management, Public Speaking, Soldering, Milling, Machining, Lab experience, Microsoft}  &
+            \multicolumn{1}{p{2.3cm}}{\textbf{Relevant Coursework}} &
                 \multicolumn{1}{p{6cm}}{Math 142: Mathematical Modeling \newline
                 Math 164: Optimization \newline
                 EPS SCI 136A/B: Applied Geophysics
@@ -34,63 +42,87 @@
                 Physics 110: Electricity and Magnetism \newline
                 CS 31: Computer Science I \newline
                 CS 32: Computer Science II} \\ \hline
-    \multicolumn{1}{p{1.5cm}}{\textbf{Research}} &
+    \multicolumn{1}{p{1.7cm}}{\textbf{Research \newline Experience}} &
         \multicolumn{3}{p{16cm}}{
-        DataFest 2017 \newline
-        Title: Data Analysis \newline
-        Project: Team developed a machine learning algorithm to determine purchase pattern of algorithms
+        \textbf{DataFest 2017} \newline
+        \leftright{\textit{Title:} Data Analysis}{May 2017}  \newline
+        \textit{Project:} Team developed a machine learning algorithm to determine purchase pattern of algorithms
         \begin{itemize}[noitemsep,nolistsep]
             \item Extracted data, so that team can work with smaller sets
             \item Analyzed data via matrices to confirm machine algorithm was accurate
             \item Created presentation to present results to audience and judges
         \end{itemize}
-        NASA High Altitude Student Platform: Electrostatic Cosmic Dust Collector[ECDC] \newline
-        Title: Systems Engineer \newline
-        Project: Team developed an optimized device to place on the HASP to collect particles from celestial showers.
+        \textbf{NASA High Altitude Student Platform: Electrostatic Cosmic Dust Collector [ECDC]} \newline
+        \leftright{\textit{Title:} Systems Engineer}{Fall 2016 - Fall 2017}\newline
+        \textit{Project:} Team developed an optimized device to place on the HASP to collect particles from celestial showers.
         \begin{itemize}[noitemsep,nolistsep]
             \item Researched corona discharge to optimize the electrostatic dust collection
         \end{itemize}
-        NASA High Altitude Student Platform: Electrostatic Cosmic Dust Collector[ECDC] \newline
-        Title: Systems Engineer \newline
-        Project: Team developed a device to place on the HASP to collect particles from celestial showers.
+        \textbf{NASA High Altitude Student Platform: Electrostatic Cosmic Dust Collector [ECDC]} \newline
+        \leftright{\textit{Title:} Systems Engineer}{Fall 2015 - Fall 2016} \newline
+        \textit{Project:} Team developed a device to place on the HASP to collect particles from celestial showers.
         \begin{itemize}[noitemsep,nolistsep]
             \item Modelled systems and possible scenarios the ECDC will go through during flight, so that the team would know design requirements
         \end{itemize}
-        College of the Canyons Fair: Sonoluminescence \newline
-        Title: Researcher and Analyst \newline
-        Project: Team constructed an apparatus to display the sonoluminescence phenomena.
+        \textbf{College of the Canyons Fair: Sonoluminescence} \newline
+        \leftright{\textit{Title:} Researcher and Analyst}{Fall 2013 - Spring 2014} \newline
+        \textit{Project:} Team constructed an apparatus to display the sonoluminescence phenomena.
         \begin{itemize}[noitemsep,nolistsep]
             \item Researched sonoluminescence
             \item Constructed the apparatus by soldering a circuit together
-        \end{itemize}} \\ \hline
-    \multicolumn{1}{p{1.5cm}}{\textbf{Work}} &
+        \end{itemize}\baselineskip}  \\ \hline
+    \multicolumn{1}{p{1.7cm}}{\textbf{Work \newline Experience}} &
         \multicolumn{3}{p{16cm}}{
-        College of the Canyons, Santa Clarita, CA \newline
-        Title: MESA Tutor/ Workshop Facilitator/ Math and Science Tutor
+        \leftright{\textbf{College of the Canyons}}{September 2014 - June 2016} \newline
+        \textit{Title:} MESA Tutor/ Workshop Facilitator/ Math and Science Tutor
         \begin{itemize}[noitemsep,nolistsep]
             \item Assisted students in mathematical or scientific homework or questions
             \item Lead Academic Excellence Workshops in the MESA Center
         \end{itemize}
-        Gentle Ride Ambulance, Glendale, CA \newline
-        Title: EMT-B
+        \leftright{\textbf{Gentle Ride Ambulance}}{May 2014 - Decemeber 2014} \newline
+        \textit{Title:} EMT-B
         \begin{itemize}[noitemsep,nolistsep]
             \item Patient care such as vitals, assessments, medical interventions
             \item Giving and taking medical history reports
         \end{itemize}
-        Papa John's Pizza, Newhall, CA \newline
-        Title: Assistant Manager
+        \leftright{\textbf{Papa John's Pizza}}{May 2013 - April 2014} \newline
+        \textit{Title:} Assistant Manager
         \begin{itemize}[noitemsep,nolistsep]
             \item Took orders and ran register in the store
             \item Surveyed systems at other businesses
             \item Closing the restaurant and stock counting
         \end{itemize}
-        High Pressure Technologies LLC, Glendale, CA \newline
-        Title: Machine Shop Intern
+        \leftright{\textbf{High Pressure Technologies LLC}}{May 2011 - July 2011} \newline
+        \textit{Title:} Machine Shop Intern
         \begin{itemize}[noitemsep,nolistsep]
             \item Assisted machinist with pressure system repair
             \item Surveyed systems at other businesses
             \item Learned machining and workshop environment
-        \end{itemize}} \\ \hline
+        \end{itemize}\baselineskip} \\ \hline
+    \multicolumn{1}{p{1.7cm}}{\textbf{Leadership \newline Experience}}  &
+        \multicolumn{1}{p{8.5cm}}{
+        \textbf{UCLA CalGeo} \newline
+        \leftright{\textit{Community Service Chair}}{Fall 2017-Spring 2018}
+        \begin{itemize}
+            \item Planned community service events
+            \item Planned public outreach events
+        \end{itemize}
+        \textbf{Astronomy and Physics Club} \newline
+        \leftright{\textit{President}}{Fall 2015-Spring 2018}
+        \begin{itemize}
+            \item Started and manged club events
+            \item Wrote budget proposals
+        \end{itemize}}  &
+            \multicolumn{1}{p{1cm}}{\textbf{Clubs/ \newline Interests}}   &
+                \multicolumn{1}{p{6cm}}{
+                California Geotechnical Engineering Association [CalGeo] \newline
+                BruinSpace \newline
+                Society of Physics Students [SPS] \newline
+                American Physical Society [APS] \newline
+                American Chemical Society [ACS] \newline
+                Mathematics, Engineering, Science Achievment [MESA] \newline
+                Salsa Club
+                }
 \end{tabular}
 
 
