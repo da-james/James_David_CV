@@ -1,6 +1,6 @@
 * Introduction
 
-This is my resume for employers to see. The template is entirely created by hand in \LaTeX
+This is my resume for employers to see. The template is entirely created by hand in \( \LaTeX \)
 
 * Other
 
