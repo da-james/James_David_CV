@@ -1,0 +1,7 @@
+* Introduction
+
+This is my resume for employers to see. The template is entirely created by hand in \latex
+
+* Other
+
+Other users that come across this and like the design are free to use the .tex file to create their own resume or document
