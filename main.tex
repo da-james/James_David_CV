@@ -5,6 +5,9 @@
 \usepackage{multirow}
 \usepackage{enumitem}
 \usepackage{hyperref}
+\usepackage{longtable}
+
+\setlist[itemize]{noitemsep, topsep=0pt}
 
 \newcommand*\leftright[2]{%
   \leavevmode
@@ -14,51 +17,172 @@
 
 \begin{document}
 
+
+
 {\centering
-    \textbf{\large David A. James}\\
-    \leftright{(661) 666-2009} {\href{https://github.com/DJ-2805}{github.com/DJ-2805}}\\
-    \leftright{\href{mailto:davidabraham@ucla.edu}{davidabraham@ucla.edu}}{\href{https://www.linkedin.com/in/daj-2805/}{linkedin.com/in/daj-2805/}}\\
+    \textbf{\large Curriculum Vitae} \\
 }
-\begin{tabular}{l l l l} \hline 
-    \multicolumn{1}{p{1.7cm}}{\textbf{\vspace{Education}}}    & 
+\begin{longtable}{l l l l} \hline
+    \multicolumn{1}{p{1.7 cm}}{\textbf{\vspace{Contact Info.}}}    &    
+    
+        \multicolumn{1}{p{7cm}}{
+        \textbf{Name:} David Abraham James \newline
+        \textbf{Cell: } (661) 666-2009 \newline
+        \textbf{Email: } \href{mailto:davidabraham@ucla.edu}{davidabraham@ucla.edu} \newline
+        \textbf{LinkedIn: } \href{https://www.linkedin.com/in/daj-2805/}{linkedin.com/in/daj-2805/} \newline
+        \textbf{Github: } \href{https://github.com/DJ-2805}{github.com/DJ-2805}} &
+        \multicolumn{1}{p{1.5cm}}{\textbf{\vspace{Education}}}  &
+            \multicolumn{1}{p{7.4cm}}{
+            \textbf{University of California: Los Angeles 2019} \newline
+            \textit{Degree:} B.S. Mathematics of Computation \newline
+            \textit{Minor} Geophysics and Planetary Physics \newline
+            \textbf{College of the Canyons 2016} \newline
+            \textit{Degrees:} Associates in Mathematics \newline 
+            Associates in Physics} \\ \hline
+        
+    \multicolumn{1}{p{1.7 cm}}{\textbf{\vspace{Awards}}}    &                
+    
         \multicolumn{3}{p{17cm}}{
-        \leftright{\textbf{University of California: Los Angeles, 2019}}\newline
-        \textit{Degrees:} B.S. Mathematics of Computation with a \newline Minor in Geophysics and Planetary Physics and Atmospheric and Oceanic Sciences \newline
-        \textit{Organizations:} Hermanos Unidos; Triangle Fraternity for Engineers, Architects, and Scientists \newline
-        \leftright{\textbf{College of the Canyons}}{GPA 3.55} \newline
-        \textit{Degrees:} Associates in Mathematics, Assosciates in Physics \newline} \\ \hline
-    \multicolumn{1}{p{1.7cm}}{\textbf{\vspace{Skills}}}   &
+        \textbf{NASA Space Grant Undergraduate Fellowship} \newline
+        \leftright{\textit{Lab Assistant}}{June 2019 - August 2019} \newline
+        \textit{Description:} Support facility and logistical needs for Psyche Mission, Europa Mission, and IMAP mission.
+        \begin{itemize}[noitemsep,nolistsep]
+            \item Followed ESD protocols when in space lab
+            \item Kit parts for missions
+        \end{itemize}
+       \baselineskip } \\ \hline
+    \multicolumn{1}{p{1.7cm}}{\textbf{Skills}}   &
+    
         \multicolumn{1}{p{8cm}}{
-        \textit{Programming:} C/C++, Python, \LaTeX, Matlab \newline
         \textit{Applied Maths:} Mathematical Modeling, Numerical Methods, Optimization, Algorithms \newline
-        \textit{Other:} Tutoring, Project Management, Staff Management, Public Speaking, Soldering, Milling, Machining, Lab experience, Microsoft Office}  &
-            \multicolumn{1}{p{2.3cm}}{\textbf{\vspace{Relevant Coursework}}} &
-                \multicolumn{1}{p{6cm}}{Math 142: Mathematical Modeling \newline
-                Math 164: Optimization \newline
-                EPS SCI 136: Applied Geophysics \newline
-                EPS SCI 155: Planetary Physics \newline
-                EPS SCI 140: Fluid Mechanics \newline
-                Physics 110: Electricity and Magnetism \newline} \\ \hline
-    \multicolumn{1}{p{1.7cm}}{\textbf{\vspace{Project \newline Experience}}} &
+        \textit{Other:} Tutoring, Project Management, Staff Management, Public Speaking, Lab experience, Documentation Writing}  &
+        \multicolumn{1}{p{2.3cm}}{\textbf{\vspace{Professional Orgs.}}} &
+            \multicolumn{1}{p{6cm}}{
+                Triangle Fraternity for Engineers, Architects, and Scientists \newline
+                Hermanos Unidos \newline
+                Mathematics, Engineering, Science, Achievement (MESA)
+                } \\
+                
+    \multicolumn{1}{p{1.7cm}}{\textbf{Technical Skills}}   &
+        \multicolumn{3}{p{17cm}}{
+        \textit{Tools:} Emacs, VIM, Jupyter, terminal \newline
+        \textit{Advanced Knowledge:} Python, Fortran, \LaTeX \newline
+        \textit{Working Knowledge:} Matlab, Simulink, C/C++, Julia, Arduino, Microsoft Office \newline
+        \textit{Basic Knowledge:} Java, Assembly, Bash \newline
+        \textit{Cloud-Based Technologies:} AWS, Docker \newline
+        \textit{Other:} Soldering, Milling, Machining, Circuitry, ESD Safety
+        } \\ \hline
+    \multicolumn{1}{p{2 cm}}{\textbf{\vspace{Work \newline Experience}}} &
+        \multicolumn{3}{p{16cm}}{
+        \leftright{\textbf{Simulated Planetary Interiors (SPIN) Lab}}{March 2019 - Present} \newline
+        \textit{Title:} Research Assistant
+        \begin{itemize}[noitemsep,nolistsep]
+            \item assists with debugging software 
+            \item creates new documentation to streamline software use
+            \item assisting with translating coding classes from Matlab code to Python
+        \end{itemize}
+        
+        \leftright{\textbf{Institute of Transportation}}{June 2018 - Present} \newline
+        \textit{Title:} IT Assistant
+        \begin{itemize}[noitemsep,nolistsep]
+            \item assisted in building computers for the ITS department along with setting up connections and machines for the Lewis Center
+            \item Help maintain the web servers under the ITS department and fix any bugs that may arise
+        \end{itemize}
+        
+        \leftright{\textbf{Atmospheric and Oceanic Department}}{October 2019 - March 2020} \newline
+        \textit{Title:} Student II Coding Assistant
+        \begin{itemize}[noitemsep,nolistsep]
+            \item assisting Professor Jasper Kok with translating his course from Matlab to Python
+            \begin{itemize}
+                \item re-coding homework assignments
+                \item designing scripts for lecture
+                \item providing any outside resources on coding in Python
+            \end{itemize}
+        \end{itemize}
+        
+        \leftright{\textbf{College of the Canyons}}{September 2014 - June 2019} \newline
+        \textit{Title:} MESA Tutor/ Workshop Facilitator/ Math and Science Tutor
+        \begin{itemize}[noitemsep,nolistsep]
+            \item Assisted students in STEM homework and answered questions they had
+            \item Lead Academic Excellence Workshops in the MESA Center
+            \item Physics Academic Workshop showed a GPA increase of 0.2 with my students and an average of 1 letter grade increase over other students
+        \end{itemize}
+        
+        \leftright{\textbf{ClassCalc}}{June 2018 - September 2018} \newline
+        \textit{Title:} Software Intern
+        \begin{itemize}[noitemsep,nolistsep]
+            \item created an algorithm that optimized the accuracy of the calculator from an error of .01 to .00001
+            \item cleaned up code and provided documentation on software that had none
+        \end{itemize}
+        
+        \leftright{\textbf{Gentle Ride Ambulance}}{May 2014 - Decemeber 2014} \newline
+        \textit{Title:} EMT-B
+        \begin{itemize}[noitemsep,nolistsep]
+            \item Patient care such as vitals, assessments, medical interventions
+            \item Giving and taking medical history reports
+        \end{itemize}
+        
+        \leftright{\textbf{Papa John's Pizza}}{May 2013 - April 2014} \newline
+        \textit{Title:} Assistant Manager
+        \begin{itemize}[noitemsep,nolistsep]
+            \item Took orders and ran register in the store
+            \item Surveyed systems at other businesses
+            \item Closing the restaurant and stock counting
+        \end{itemize}
+                
+        \leftright{\textbf{High Pressure Technologies LLC}}{May 2011 - July 2011} \newline
+        \textit{Title:} Machine Shop Intern
+        \begin{itemize}[noitemsep,nolistsep]
+            \item Assisted machinist with pressure system repair
+            \item Surveyed systems at other businesses
+            \item machiend fittings for pressure systems
+            \item Learned machining and workshop environment
+        \end{itemize}
+        
+        \baselineskip} \\ \hline
+    \multicolumn{1}{p{2 cm}}{\textbf{\vspace{Project \newline Experience}}} &
         \multicolumn{3}{p{16cm}}{
         \textbf{Rapid: Blue Dawn CubeSat Mission -- \href{http://bruinspace.com/projects/rapid.html}{http://bruinspace.com/projects/rapid.html}} \newline
-        \leftright{\textit{Title:} Assembly, Integration, \& Testing Engineer}{June 2018 - Present} \newline
-        \textit{Project:} Team is developing a CubeSat that is launching on Blue Origin's New Shepard rocket \newline
+        \leftright{\textit{Title:} Assembly, Integration, \& Testing Engineer}{June 2018 - April 2019} \newline
+        \textit{Project:} Team developed a payload that consisted of a magneto-hydrodynamic pump that launched on Blue Origin's New Shepard rocket \newline
         \textit{Skills Used:} Python, Arduino, Documentation Writing, Circuitry, Soldering
         \begin{itemize}[noitemsep,nolistsep]
             \item Write assembly, safe-to-mate, and functional procedures
             \item Test procedures for errors and accuracy on design
             \item Test magneto-hydrodynamic pump extensively to ensure design was safe to fly 
         \end{itemize}
+        
+        \textbf{DataFest 2019 -- \href{https://github.com/DJ-2805/dataFest2019}{https://github.com/DJ-2805/dataFest2019}} \newline
+        \leftright{\textit{Title:} Data Analyst}{May 2019}  \newline
+        \textit{Project:} Team developed a physical model to calculate when a rugby player experienced a tackle during a given game, and compared if it had an affect on players reporting scores \newline
+        \textit{Skills Used:} Python, Data Analysis, Documentation Writing, Math Modeling
+        \begin{itemize}[noitemsep,nolistsep]
+            \item designed physics model to have thresholds for impulse and speed
+            \item pulled outside resources from papers describing stats of players
+            \item checked accuracy of model
+            \item created presentation for judges to see results
+        \end{itemize}
+        
         \textbf{Idea Hacks 2019 -- \href{https://github.com/DJ-2805/muscleBot}{https://github.com/DJ-2805/muscleBot}} \newline
         \leftright{\textit{Title:} Data Analyst}{January 2019} \newline
-        \textit{Project:} Team designed RC Car that moved based off of hand motion and muscle detection \newline
+        \textit{Project:} Team designed a RC Car that moved based off of hand motion and muscle detection \newline
         \textit{Skills Used:} Python, Arduino, Circuitry, Data Analysis
         \begin{itemize}[noitemsep,nolistsep]
             \item Calibrated muscle sensor to recognize EM pulses to turn on/off RC Car
             \item Calibrated hand motion, so that accleration data would move the car in correct motion
             \item Assisted in circuit design of RC Car and hookup of hardware to devices
         \end{itemize}
+        
+        \textbf{DataFest 2018 -- \href{https://github.com/DJ-2805/datafest2018}{https://github.com/DJ-2805/datafest2018}} \newline
+        \leftright{\textit{Title:} Data Analyst}{May 2018}  \newline
+        \textit{Project:} Team developed a machine learning algorithm to determine possible indicators of competitive job postings on indeed.com \newline
+        \textit{Skills Used:} Python, Data Analysis, Documentation Writing
+        \begin{itemize}[noitemsep,nolistsep]
+            \item Extracted data, so that team can work with smaller sets
+            \item Analyzed data via matrices to confirm machine algorithm was accurate
+            \item Created presentation to present results to audience and judges
+        \end{itemize}
+        
         \textbf{LA Hacks 2018 -- \href{https://github.com/ryanmjacobs/4sk8}{https://github.com/ryanmjacobs/4sk8}} \newline
         \leftright{\textit{Title:} Full Stack Developer}{March 2018} \newline
         \textit{Project:} Team developed an Arduino compass hooked up to a skateboard that would receive heading from external website \newline
@@ -67,52 +191,156 @@
             \item Designed back end of the website using JavaScript, so that Arduino received GPS coordinates
             \item Designed simple front-end for the website using HTML, so that user could input destination
             \item Assisted team members with design, so that it would gather data, and output an accurate heading
-        \end{itemize} \baselineskip} \\ \hline
-    \multicolumn{1}{p{1.7cm}}{\textbf{\vspace{Work \newline Experience}}} &
+        \end{itemize}
+        
+        \textbf{DataFest 2017} \newline
+        \leftright{\textit{Title:} Data Analyst}{May 2017}  \newline
+        \textit{Project:} Team developed a machine learning algorithm to determine purchase pattern of families traveling \newline
+        \textit{Skills Used:} Python, Data Analysis, Machine Learning
+        \begin{itemize}[noitemsep,nolistsep]
+            \item Extracted data, so that team can work with smaller sets
+            \item Analyzed data via matrices to confirm machine algorithm was accurate
+            \item Created presentation to present results to audience and judges
+        \end{itemize}
+        
+        \textbf{NASA High Altitude Student Platform: Electrostatic Cosmic Dust Collector [ECDC]} \newline
+        \leftright{\textit{Title:} Systems Engineer}{Fall 2016 - Fall 2017}\newline
+        \textit{Project:} Team optimized the device for HASP to collect particles from celestial showers. \newline
+        \textit{Skills Used:} Project Management, Staff Management, Public Speaking
+        \begin{itemize}[noitemsep,nolistsep]
+            \item Researched corona discharge to optimize the electrostatic dust collection
+        \end{itemize}
+        
+        \textbf{NASA High Altitude Student Platform: Electrostatic Cosmic Dust Collector [ECDC]} \newline
+        \leftright{\textit{Title:} Systems Engineer}{Fall 2015 - Fall 2016} \newline
+        \textit{Project:} Team developed a device for HASP to collect particles from celestial showers. \newline
+        \textit{Skills Used:} C/C++, Public Speaking, Project Management, Soldering, Machining, Milling
+        \begin{itemize}[noitemsep,nolistsep]
+            \item Modelled systems and possible scenarios the ECDC will go through during flight, so that the team would know design requirements
+        \end{itemize}
+        
+        \textbf{College of the Canyons Science Fair: Sonoluminescence} \newline
+        \leftright{\textit{Title:} Researcher and Analyst}{Fall 2013 - Spring 2014} \newline
+        \textit{Project:} Team constructed an apparatus to display the sonoluminescence phenomena. \newline
+        \textit{Skills Used:} Soldering, Circuitry, Oscilloscope, Lab Testing
+        \begin{itemize}[noitemsep,nolistsep]
+            \item Researched sonoluminescence
+            \item Constructed the apparatus by soldering a circuit together
+        \end{itemize}
+        
+        \baselineskip}  \\ \hline
+    \multicolumn{1}{p{2 cm}}{\textbf{Research \newline Experience}}  &
         \multicolumn{3}{p{16cm}}{
-        \leftright{\textbf{UCLA: Institute of Transportation Studies}}{June 2018 - Present} \newline
-        \textit{Title:} IT Assistant
+        \textbf{Rapid: Blue Dawn Post Launch Analysis} \newline
+        \leftright{\textit{Advisor:} Lydia Adair}{April 2019 - Present} \newline
+        \textit{Project:} Analyze the magnetohydrodynamic design of Blue Dawn, and show that it is a sensible design \newline
+        \textit{Skills Used:} Python, Debugging, Documenation Writing, Soldering, Circuitry, Arduino, Lab testing
         \begin{itemize}[noitemsep,nolistsep]
-            \item Built computers for the ITS Department
-            \item Setup network and connections along with cleaning machines for Lewis Department
-            \item Help maintain web servers
-            \item Troubleshoot any technical problems or tasks that arise within the department
+            \item Setup Arduino circuit to run pump and read values from flow meter
+            \item Use Python interface to display values on screen to users to observe
+            \item Repeat experiment efficiently to ensure results are consistent
         \end{itemize}
-        \leftright{\textbf{College of the Canyons: MESA Center}}{September 2014 - Present} \newline
-        \textit{Title:} MESA Tutor/ Workshop Facilitator/ Math and Science Tutor
+        
+        \textbf{Mineral Lab: APEx} \newline
+        \leftright{\textit{Advisor:} Abby Kavner}{October 2019 - Present} \newline
+        \textit{Project:} Extracts peak locations and ancillary information from an unrolled diffraction image. \newline
+        \textit{Skills Used:} Python, Debugging, Documenation Writing
         \begin{itemize}[noitemsep,nolistsep]
-            \item Assisted students in STEM homework and answered questions pertaining to theory they studied
-            \item Lead Academic Excellence Workshops in the MESA Center
-            \item Physics Academic Workshop showed a GPA increase of 0.2 with my students and an average of 1 letter grade increase over other students
+            \item Switching Python 2.0 standard to Python 3.0 standard
+            \item Allowing for more cases of images to be inputted and analyzed
         \end{itemize}
-        \leftright{\textbf{High Pressure Technologies LLC}}{May 2011 - July 2011} \newline
-        \textit{Title:} Machine Shop Intern
+        
+        \textbf{SPIN Lab: DigiPyRo} \newline
+        \leftright{\textit{Advisor:} Jon Aurnou}{July 2019 - Present} \newline
+        \textit{Project:} Digitally rotates a movie and allows for single-particle tracking. Originally designed to intuitively show Coriolis force effects by the appearance of inertial circles when digitally rotating film of a ball oscillating on a parabolic surface. \newline
+        \textit{Skills Used:} Python, Debugging, Documenation Writing
         \begin{itemize}[noitemsep,nolistsep]
-            \item Assisted machinist with pressure system repair
-            \item Tested pressure systems at external locations to ensure safety and upkeep
-            \item Machined fittings for pressure systems
-        \end{itemize}\baselineskip} \\ \hline
-    \multicolumn{1}{p{1.7cm}}{\textbf{\vspace{Leadership \newline Experience}}}  &
-        \multicolumn{1}{p{8.5cm}}{
+            \item Switching Python 2.0 standard to Python 3.0 standard
+            \item Debugging OpenCV package implemented in design
+        \end{itemize}
+        
+        \textbf{EPSS 199: Directed Research} \newline
+        \leftright{\textit{Advisor:} Lars Stixrude}{June 2019 - August 2019} \newline
+        \textit{Project:} Created a model that simulated a silicate planet's mass and radius with a initial parameters and equations \newline
+        \textit{Skills Used:} Python, Fortran, Debugging, Documenation Writing
+        \begin{itemize}[noitemsep,nolistsep]
+            \item Coded model in Fortran following modular design
+            \item Used Python to visualize simulated points
+            \item Collected observed data from NASA Exoplanet Database to compare
+        \end{itemize}
+        
+        \textbf{URBN PL 199: Directed Research} \newline
+        \leftright{\textit{Advisor:} Evelyn Blumenberg}{June 2019 - August 2019} \newline
+        \textit{Project:} Compare the euclidean distance to the network distance of ordered pairs of 14 million home and work FIPS code destinations \newline
+        \textit{Skills Used:} Python, Debugging, docker, jupyter, Documenation Writing
+        \begin{itemize}[noitemsep,nolistsep]
+            \item Used a docker container to run OSRM software to create a local map of California on the machine
+            \item Paralleled Python code such that it can run the OD pairs efficiently
+            \item Used public Census data to gather latitudes and longitudes for FIPS codes
+            \item Showed that the Euclidean distance differs on a median of about 3 miles
+        \end{itemize}
+        
+        \baselineskip} \\ \hline
+    \multicolumn{1}{p{2 cm}}{\textbf{Leadership \newline Experience}}  &
+        \multicolumn{3}{p{16cm}}{
+        \textbf{Triangle Fraternity} \newline
+        \leftright{\textit{House Manager}}{June 2019 - January 2019}
+        \begin{itemize}[noitemsep,nolistsep]
+            \item Coordinated tenants and assigned them living spaces
+            \item Maintained house through repairs
+            \item Called technicians to fix invasive damages
+            \item Tracked a budget of \$24,000 to use for the house
+        \end{itemize}
+        
         \textbf{UCLA CalGeo} \newline
-        \leftright{\textit{Community Service Chair}}{Fall 2017-Spring 2018}
+        \leftright{\textit{Community Service Chair}}{Fall 2017 - Spring 2018}
         \begin{itemize}[noitemsep,nolistsep]
             \item Planned community service events
             \item Planned public outreach events
         \end{itemize}
+        
         \textbf{Astronomy and Physics Club} \newline
-        \leftright{\textit{President}}{Fall 2015-Spring 2018}
+        \leftright{\textit{President}}{Fall 2015 - Spring 2018}
         \begin{itemize}[noitemsep,nolistsep]
             \item Started and manged club events
             \item Wrote budget proposals
-        \end{itemize}}  &
-            \multicolumn{1}{p{1cm}}{\textbf{\vspace{Clubs/ \newline Interests}}}   &
-                \multicolumn{1}{p{6cm}}{
-                California Geotechnical Engineering Association [CalGeo] \newline
-                Muay Thai \newline
-                Salsa Club
-                }
-\end{tabular}
+        \end{itemize}
+        
+        \baselineskip}  \\ \hline
+    
+    \pagebreak
+        
+    \multicolumn{1}{p{2cm}}{\textbf{Volunteer \newline Experience}}     &
+        \multicolumn{3}{p{16cm}}{
+        \textbf{Northridge Hospital ER} \newline
+        \leftright{\textit{ER Volunteer}}{Fall 2014 - June 2016}
+        \begin{itemize}[noitemsep,nolistsep]
+            \item Stocked medical carts with necessary items for nurses
+            \item assisted patients in simple requests of food or calling
+            \item assisted nurses in patient care as directed
+        \end{itemize}
+        \baselineskip} \\ 
+    \multicolumn{1}{p{2cm}}{\textbf{Community \newline Outreach}}       &
+        \multicolumn{3}{p{16cm}}{
+        \textbf{UCLA: Exploring Your Universe} \newline
+        \leftright{\textit{Booth Volunteer}}{Fall 2017 - Fall 2018} \newline
+        \textit{Description:} An annual event hosted by UCLA that had science booths illustrating all types of phenomena
+        \begin{itemize}[noitemsep,nolistsep]
+            \item assisted in setting up booths and running information
+            \item ran science demo for particular group I was associated with that year
+        \end{itemize}
+        
+        \textbf{College of the Canyons: Star Party} \newline
+        \leftright{\textit{Booth Volunteer}}{Fall 2013 - June 2017} \newline
+        \textit{Description:} COC hosted a semester event that had science booths and telescopes set up for families to come and walk around. There would also be a couple guest speakers to present on particular science topics
+        \begin{itemize}[noitemsep,nolistsep]
+            \item assisted in setting up tables and telescopes for workers
+            \item ran science demos and explained phenomena to families
+            \item assisted families around the event
+        \end{itemize}
+        
+        }
+\end{longtable}
 
 
 
